@@ -1,0 +1,153 @@
+import tensorflow as tf
+import numpy as np
+from ops import *
+from tensorflow.contrib.data import prefetch_to_device, shuffle_and_repeat, batch_and_drop_remainder
+import tensorflow.contrib.slim as slim
+
+"""Self-Attention Based Vessel Classification (Matching) Network"""
+class SelfAttentionModel:
+    def __init__(self, data_X, data_y):
+        self.n_class = 35
+        self.n_ch = 2048
+        self.sn = True
+        self._create_architecture(data_X, data_y)
+
+    def _create_architecture(self, data_X, data_y):
+        y_hot = tf.one_hot(data_y, depth = self.n_class)
+        logits = self._create_model(data_X, self.n_ch, self.sn)
+        predictions = tf.argmax(logits, 1, output_type = tf.int32)
+        self.loss = tf.reduce_sum(tf.nn.softmax_cross_entropy_with_logits_v2(labels = y_hot, 
+                                                                             logits = logits))
+        #self.loss = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits_v2(labels = y_hot, 
+        #                                                                      logits = logits))
+        self.optimizer = tf.train.AdamOptimizer(learning_rate = 0.00001).minimize(self.loss)
+        self.accuracy = tf.reduce_mean(tf.cast(tf.equal(predictions, data_y), tf.float32))
+
+
+    def _create_model(self, x, channels, sn):
+        batch_size, height, width, num_channels = x.get_shape().as_list()
+        """
+        # self-attention
+        f = conv(x, channels // 8, kernel=1, stride=1, sn=sn, scope='f_conv')  # [bs, h, w, c']
+        f = max_pooling(f)
+
+        g = conv(x, channels // 8, kernel=1, stride=1, sn=sn, scope='g_conv')  # [bs, h, w, c']
+
+        h = conv(x, channels // 2, kernel=1, stride=1, sn=sn, scope='h_conv')  # [bs, h, w, c]
+        h = max_pooling(h)
+
+        # N = h * w
+        s = tf.matmul(hw_flatten(g), hw_flatten(f), transpose_b=True)  # # [bs, N, N]
+
+        beta = tf.nn.softmax(s)  # attention map
+
+        o = tf.matmul(beta, hw_flatten(h))  # [bs, N, C]
+        gamma = tf.get_variable("gamma", [1], initializer=tf.constant_initializer(0.0))
+
+        o = tf.reshape(o, shape=[batch_size, height, width, num_channels // 2])  # [bs, h, w, C]
+        o = conv(o, channels, kernel=1, stride=1, sn=sn, scope='attn_conv')
+        x = gamma * o + x
+
+        # additional layers after selt-attention
+        #x = slim.conv2d(x, 1024, [7, 7], padding = 'VALID')
+        #x = slim.conv2d(x, 4096, [1, 1], padding = 'VALID')
+
+        # fc with flatten
+        #x = tf.reshape(x, [-1, 1024]) 
+        #x = batch_norm(x, is_training=True, scope='bn_3')
+        #x = slim.fully_connected(x, 512)
+        #x = slim.fully_connected(x, self.n_class, activation_fn = None)
+        """
+
+        x = slim.avg_pool2d(x, [7, 7])
+        x = tf.reshape(x, [-1, 2048]) 
+        x = slim.fully_connected(x, 1000)
+        x = slim.fully_connected(x, self.n_class, activation_fn = None)
+
+        return x
+
+"""main"""
+def main():
+
+    # load maritime data
+    train_features = np.load('/workspace/01_feature_extraction/Y_train.npy').astype(np.float32)
+    train_labels = np.load('/workspace/01_feature_extraction/label_train.npy').astype(np.int)
+    test_features = np.load('/workspace/01_feature_extraction/Y_test.npy').astype(np.float32)
+    test_labels = np.load('/workspace/01_feature_extraction/label_test.npy').astype(np.int)
+
+    # Assume that each row of `features` corresponds to the same row as `labels`.
+    assert train_features.shape[0] == train_labels.shape[0]
+
+    # reshape
+    train_origin_shape = train_features.shape
+    test_origin_shape = test_features.shape
+    train_features = np.reshape(train_features, (train_origin_shape[0],
+                                train_origin_shape[2], train_origin_shape[3], train_origin_shape[4]))
+    test_features = np.reshape(test_features, (test_origin_shape[0],
+                               test_origin_shape[2], test_origin_shape[3], test_origin_shape[4]))
+
+    # transpose
+    train_features = np.transpose(train_features, (0,2,3,1))
+    test_features = np.transpose(test_features, (0,2,3,1))
+
+    # need to make as tf record files if the size of the dataset is too big to load into memory
+    train_dataset = tf.data.Dataset.from_tensor_slices((train_features, train_labels))
+    test_dataset = tf.data.Dataset.from_tensor_slices((test_features, test_labels))
+
+    print (train_features.shape)
+    print (train_labels.shape)
+
+    #print (train_labels[0], train_labels[1])
+    #print (test_features.shape)
+    #print (test_labels.shape)
+
+    # training parameters
+    dataset_num = train_features.shape[0]
+    batch_size = 32
+    training_epochs = 50
+    display_step = 1
+    train_dataset = train_dataset.apply(shuffle_and_repeat(dataset_num)).apply(batch_and_drop_remainder(batch_size))
+
+    # create iterator
+    iter = train_dataset.make_one_shot_iterator()
+    batch_x, batch_y = iter.get_next()
+    batch_y = tf.cast(batch_y, tf.int32)
+
+    # our self-attention model
+    model = SelfAttentionModel(batch_x, batch_y)
+
+    # open session
+    config = tf.ConfigProto()
+    config.allow_soft_placement = True
+    config.gpu_options.per_process_gpu_memory_fraction = 0.8
+    config.gpu_options.allow_growth = True
+
+    # initialize all variables
+    init = tf.global_variables_initializer()
+
+    with tf.Session(config=config) as sess:
+
+        # initialize
+        sess.run(init)
+
+        for epoch in range(training_epochs):
+            avg_cost = 0.
+            avg_acc = 0.
+            total_batch = int(dataset_num/batch_size)
+            #print (total_batch)
+            for i in range(total_batch):
+                # Run optimization op (backprop) and cost op (to get loss value)
+                accuracy, _, c = sess.run([model.accuracy, model.optimizer, model.loss])
+                # Compute average loss and accuracy
+                avg_cost += c
+                avg_acc += accuracy
+
+            avg_cost /= total_batch
+            avg_acc /= total_batch
+            # display logs per epoch step
+            if epoch % display_step == 0:
+                print("Epoch:", '%04d' % (epoch+1), "Average training accuracy={:.9f}".format(avg_acc), "cost={:.9f}".format(avg_cost))
+
+
+if __name__ == '__main__':
+    main()

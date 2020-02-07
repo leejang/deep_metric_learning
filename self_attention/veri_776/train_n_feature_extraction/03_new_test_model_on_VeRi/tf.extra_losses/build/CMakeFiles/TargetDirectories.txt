@@ -1,0 +1,3 @@
+/workspace/03_new_test_model_on_VeRi/tf.extra_losses/build/CMakeFiles/edit_cache.dir
+/workspace/03_new_test_model_on_VeRi/tf.extra_losses/build/CMakeFiles/rebuild_cache.dir
+/workspace/03_new_test_model_on_VeRi/tf.extra_losses/build/CMakeFiles/extra_losses.dir

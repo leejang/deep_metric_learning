@@ -1,0 +1,1517 @@
+(1680, 7, 7, 2048)
+(1680,)
+2019-08-20 23:01:35.065736: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1392] Found device 0 with properties: 
+name: Quadro P5000 major: 6 minor: 1 memoryClockRate(GHz): 1.7335
+pciBusID: 0000:03:00.0
+totalMemory: 15.89GiB freeMemory: 12.96GiB
+2019-08-20 23:01:35.376372: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1392] Found device 1 with properties: 
+name: Quadro P5000 major: 6 minor: 1 memoryClockRate(GHz): 1.7335
+pciBusID: 0000:04:00.0
+totalMemory: 15.88GiB freeMemory: 12.87GiB
+2019-08-20 23:01:35.377314: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1471] Adding visible gpu devices: 0, 1
+2019-08-20 23:01:35.891838: I tensorflow/core/common_runtime/gpu/gpu_device.cc:952] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-08-20 23:01:35.891881: I tensorflow/core/common_runtime/gpu/gpu_device.cc:958]      0 1 
+2019-08-20 23:01:35.891890: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] 0:   N Y 
+2019-08-20 23:01:35.891921: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] 1:   Y N 
+2019-08-20 23:01:35.892570: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1084] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 13018 MB memory) -> physical GPU (device: 0, name: Quadro P5000, pci bus id: 0000:03:00.0, compute capability: 6.1)
+2019-08-20 23:01:35.893583: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1084] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 13011 MB memory) -> physical GPU (device: 1, name: Quadro P5000, pci bus id: 0000:04:00.0, compute capability: 6.1)
+17.0
+Epoch: 0001 training_accuracy=0.060119048 train_cost=3.357768411
+Epoch: 0001 test_accuracy=0.129770992 test_cost=3.030626574
+38.0
+Epoch: 0002 training_accuracy=0.219642857 train_cost=2.805860437
+Epoch: 0002 test_accuracy=0.290076336 test_cost=2.643200684
+46.0
+Epoch: 0003 training_accuracy=0.336309524 train_cost=2.449481949
+Epoch: 0003 test_accuracy=0.351145038 test_cost=2.356550901
+55.0
+Epoch: 0004 training_accuracy=0.422619048 train_cost=2.159219670
+Epoch: 0004 test_accuracy=0.419847328 test_cost=2.112071017
+64.0
+Epoch: 0005 training_accuracy=0.493452381 train_cost=1.909365844
+Epoch: 0005 test_accuracy=0.488549618 test_cost=1.899568171
+69.0
+Epoch: 0006 training_accuracy=0.545238095 train_cost=1.691918294
+Epoch: 0006 test_accuracy=0.526717557 test_cost=1.715680112
+74.0
+Epoch: 0007 training_accuracy=0.608333333 train_cost=1.500880873
+Epoch: 0007 test_accuracy=0.564885496 test_cost=1.554045734
+78.0
+Epoch: 0008 training_accuracy=0.658928571 train_cost=1.332698460
+Epoch: 0008 test_accuracy=0.595419847 test_cost=1.411182715
+83.0
+Epoch: 0009 training_accuracy=0.700000000 train_cost=1.183060478
+Epoch: 0009 test_accuracy=0.633587786 test_cost=1.279891661
+86.0
+Epoch: 0010 training_accuracy=0.744047619 train_cost=1.051062120
+Epoch: 0010 test_accuracy=0.656488550 test_cost=1.167601299
+91.0
+Epoch: 0011 training_accuracy=0.779761905 train_cost=0.932546384
+Epoch: 0011 test_accuracy=0.694656489 test_cost=1.062941925
+95.0
+Epoch: 0012 training_accuracy=0.807738095 train_cost=0.827165832
+Epoch: 0012 test_accuracy=0.725190840 test_cost=0.975111033
+94.0
+Epoch: 0013 training_accuracy=0.828571429 train_cost=0.733199282
+Epoch: 0013 test_accuracy=0.717557252 test_cost=0.896756932
+97.0
+Epoch: 0014 training_accuracy=0.848809524 train_cost=0.649554695
+Epoch: 0014 test_accuracy=0.740458015 test_cost=0.823530901
+101.0
+Epoch: 0015 training_accuracy=0.860714286 train_cost=0.575169768
+Epoch: 0015 test_accuracy=0.770992366 test_cost=0.759757037
+103.0
+Epoch: 0016 training_accuracy=0.873809524 train_cost=0.507965691
+Epoch: 0016 test_accuracy=0.786259542 test_cost=0.700794869
+104.0
+Epoch: 0017 training_accuracy=0.880952381 train_cost=0.450358043
+Epoch: 0017 test_accuracy=0.793893130 test_cost=0.643632533
+106.0
+Epoch: 0018 training_accuracy=0.888690476 train_cost=0.398500935
+Epoch: 0018 test_accuracy=0.809160305 test_cost=0.599286018
+105.0
+Epoch: 0019 training_accuracy=0.895238095 train_cost=0.352342601
+Epoch: 0019 test_accuracy=0.801526718 test_cost=0.561422427
+106.0
+Epoch: 0020 training_accuracy=0.900595238 train_cost=0.311845887
+Epoch: 0020 test_accuracy=0.809160305 test_cost=0.521227865
+105.0
+Epoch: 0021 training_accuracy=0.902380952 train_cost=0.275913987
+Epoch: 0021 test_accuracy=0.801526718 test_cost=0.489893616
+107.0
+Epoch: 0022 training_accuracy=0.905357143 train_cost=0.245040006
+Epoch: 0022 test_accuracy=0.816793893 test_cost=0.457676763
+105.0
+Epoch: 0023 training_accuracy=0.907142857 train_cost=0.217638003
+Epoch: 0023 test_accuracy=0.801526718 test_cost=0.433921635
+107.0
+Epoch: 0024 training_accuracy=0.908928571 train_cost=0.193375289
+Epoch: 0024 test_accuracy=0.816793893 test_cost=0.410837849
+107.0
+Epoch: 0025 training_accuracy=0.910119048 train_cost=0.171577566
+Epoch: 0025 test_accuracy=0.816793893 test_cost=0.389304568
+109.0
+Epoch: 0026 training_accuracy=0.911904762 train_cost=0.153656870
+Epoch: 0026 test_accuracy=0.832061069 test_cost=0.368346806
+107.0
+Epoch: 0027 training_accuracy=0.911309524 train_cost=0.137595302
+Epoch: 0027 test_accuracy=0.816793893 test_cost=0.354229087
+108.0
+Epoch: 0028 training_accuracy=0.912500000 train_cost=0.123359886
+Epoch: 0028 test_accuracy=0.824427481 test_cost=0.334986119
+109.0
+Epoch: 0029 training_accuracy=0.913690476 train_cost=0.110840184
+Epoch: 0029 test_accuracy=0.832061069 test_cost=0.322123277
+110.0
+Epoch: 0030 training_accuracy=0.913690476 train_cost=0.099473769
+Epoch: 0030 test_accuracy=0.839694656 test_cost=0.308803665
+109.0
+Epoch: 0031 training_accuracy=0.913690476 train_cost=0.089644979
+Epoch: 0031 test_accuracy=0.832061069 test_cost=0.297964256
+110.0
+Epoch: 0032 training_accuracy=0.913690476 train_cost=0.081269650
+Epoch: 0032 test_accuracy=0.839694656 test_cost=0.284228113
+110.0
+Epoch: 0033 training_accuracy=0.914285714 train_cost=0.073467214
+Epoch: 0033 test_accuracy=0.839694656 test_cost=0.275560645
+110.0
+Epoch: 0034 training_accuracy=0.913690476 train_cost=0.066655423
+Epoch: 0034 test_accuracy=0.839694656 test_cost=0.266775826
+111.0
+Epoch: 0035 training_accuracy=0.914285714 train_cost=0.060635471
+Epoch: 0035 test_accuracy=0.847328244 test_cost=0.258044239
+111.0
+Epoch: 0036 training_accuracy=0.914285714 train_cost=0.055010096
+Epoch: 0036 test_accuracy=0.847328244 test_cost=0.246827729
+112.0
+Epoch: 0037 training_accuracy=0.914285714 train_cost=0.050254709
+Epoch: 0037 test_accuracy=0.854961832 test_cost=0.239405464
+111.0
+Epoch: 0038 training_accuracy=0.913690476 train_cost=0.045718646
+Epoch: 0038 test_accuracy=0.847328244 test_cost=0.234020819
+111.0
+Epoch: 0039 training_accuracy=0.914285714 train_cost=0.041890674
+Epoch: 0039 test_accuracy=0.847328244 test_cost=0.226380435
+112.0
+Epoch: 0040 training_accuracy=0.914285714 train_cost=0.038323310
+Epoch: 0040 test_accuracy=0.854961832 test_cost=0.224985074
+112.0
+Epoch: 0041 training_accuracy=0.914285714 train_cost=0.035341756
+Epoch: 0041 test_accuracy=0.854961832 test_cost=0.216409863
+112.0
+Epoch: 0042 training_accuracy=0.914285714 train_cost=0.032507670
+Epoch: 0042 test_accuracy=0.854961832 test_cost=0.213421540
+112.0
+Epoch: 0043 training_accuracy=0.914285714 train_cost=0.029975833
+Epoch: 0043 test_accuracy=0.854961832 test_cost=0.206538445
+111.0
+Epoch: 0044 training_accuracy=0.914285714 train_cost=0.027694584
+Epoch: 0044 test_accuracy=0.847328244 test_cost=0.202767773
+112.0
+Epoch: 0045 training_accuracy=0.914285714 train_cost=0.025413337
+Epoch: 0045 test_accuracy=0.854961832 test_cost=0.196073131
+112.0
+Epoch: 0046 training_accuracy=0.914285714 train_cost=0.023635666
+Epoch: 0046 test_accuracy=0.854961832 test_cost=0.190575369
+113.0
+Epoch: 0047 training_accuracy=0.914285714 train_cost=0.021837693
+Epoch: 0047 test_accuracy=0.862595420 test_cost=0.189081487
+112.0
+Epoch: 0048 training_accuracy=0.914285714 train_cost=0.020265739
+Epoch: 0048 test_accuracy=0.854961832 test_cost=0.184397851
+112.0
+Epoch: 0049 training_accuracy=0.914285714 train_cost=0.018866999
+Epoch: 0049 test_accuracy=0.854961832 test_cost=0.182348557
+111.0
+Epoch: 0050 training_accuracy=0.914285714 train_cost=0.017547752
+Epoch: 0050 test_accuracy=0.847328244 test_cost=0.178050086
+112.0
+Epoch: 0051 training_accuracy=0.914285714 train_cost=0.016387440
+Epoch: 0051 test_accuracy=0.854961832 test_cost=0.179065672
+114.0
+Epoch: 0052 training_accuracy=0.914285714 train_cost=0.015246472
+Epoch: 0052 test_accuracy=0.870229008 test_cost=0.171550753
+112.0
+Epoch: 0053 training_accuracy=0.914285714 train_cost=0.014247922
+Epoch: 0053 test_accuracy=0.854961832 test_cost=0.171396364
+112.0
+Epoch: 0054 training_accuracy=0.914285714 train_cost=0.013342372
+Epoch: 0054 test_accuracy=0.854961832 test_cost=0.171317544
+113.0
+Epoch: 0055 training_accuracy=0.914285714 train_cost=0.012479594
+Epoch: 0055 test_accuracy=0.862595420 test_cost=0.168108245
+113.0
+Epoch: 0056 training_accuracy=0.914285714 train_cost=0.011706730
+Epoch: 0056 test_accuracy=0.862595420 test_cost=0.167512240
+113.0
+Epoch: 0057 training_accuracy=0.914285714 train_cost=0.010964837
+Epoch: 0057 test_accuracy=0.862595420 test_cost=0.159374565
+113.0
+Epoch: 0058 training_accuracy=0.914285714 train_cost=0.010283432
+Epoch: 0058 test_accuracy=0.862595420 test_cost=0.162943782
+113.0
+Epoch: 0059 training_accuracy=0.914285714 train_cost=0.009739856
+Epoch: 0059 test_accuracy=0.862595420 test_cost=0.158542950
+114.0
+Epoch: 0060 training_accuracy=0.914285714 train_cost=0.009162796
+Epoch: 0060 test_accuracy=0.870229008 test_cost=0.155998980
+112.0
+Epoch: 0061 training_accuracy=0.914285714 train_cost=0.008629967
+Epoch: 0061 test_accuracy=0.854961832 test_cost=0.156292336
+114.0
+Epoch: 0062 training_accuracy=0.914285714 train_cost=0.008117879
+Epoch: 0062 test_accuracy=0.870229008 test_cost=0.155404997
+113.0
+Epoch: 0063 training_accuracy=0.914285714 train_cost=0.007730621
+Epoch: 0063 test_accuracy=0.862595420 test_cost=0.154849472
+114.0
+Epoch: 0064 training_accuracy=0.914285714 train_cost=0.007303035
+Epoch: 0064 test_accuracy=0.870229008 test_cost=0.152043898
+114.0
+Epoch: 0065 training_accuracy=0.914285714 train_cost=0.006913244
+Epoch: 0065 test_accuracy=0.870229008 test_cost=0.151578550
+114.0
+Epoch: 0066 training_accuracy=0.914285714 train_cost=0.006540134
+Epoch: 0066 test_accuracy=0.870229008 test_cost=0.151306216
+114.0
+Epoch: 0067 training_accuracy=0.914285714 train_cost=0.006236012
+Epoch: 0067 test_accuracy=0.870229008 test_cost=0.147766962
+113.0
+Epoch: 0068 training_accuracy=0.914285714 train_cost=0.005911291
+Epoch: 0068 test_accuracy=0.862595420 test_cost=0.148196692
+114.0
+Epoch: 0069 training_accuracy=0.914285714 train_cost=0.005658280
+Epoch: 0069 test_accuracy=0.870229008 test_cost=0.147765879
+114.0
+Epoch: 0070 training_accuracy=0.914285714 train_cost=0.005372194
+Epoch: 0070 test_accuracy=0.870229008 test_cost=0.148891565
+114.0
+Epoch: 0071 training_accuracy=0.914285714 train_cost=0.005151240
+Epoch: 0071 test_accuracy=0.870229008 test_cost=0.146340823
+114.0
+Epoch: 0072 training_accuracy=0.914285714 train_cost=0.004914763
+Epoch: 0072 test_accuracy=0.870229008 test_cost=0.145519128
+114.0
+Epoch: 0073 training_accuracy=0.914285714 train_cost=0.004690832
+Epoch: 0073 test_accuracy=0.870229008 test_cost=0.143788890
+114.0
+Epoch: 0074 training_accuracy=0.914285714 train_cost=0.004466520
+Epoch: 0074 test_accuracy=0.870229008 test_cost=0.145149372
+114.0
+Epoch: 0075 training_accuracy=0.914285714 train_cost=0.004303241
+Epoch: 0075 test_accuracy=0.870229008 test_cost=0.142967001
+114.0
+Epoch: 0076 training_accuracy=0.914285714 train_cost=0.004127520
+Epoch: 0076 test_accuracy=0.870229008 test_cost=0.147104582
+114.0
+Epoch: 0077 training_accuracy=0.914285714 train_cost=0.003956104
+Epoch: 0077 test_accuracy=0.870229008 test_cost=0.142455566
+114.0
+Epoch: 0078 training_accuracy=0.914285714 train_cost=0.003827316
+Epoch: 0078 test_accuracy=0.870229008 test_cost=0.139204272
+114.0
+Epoch: 0079 training_accuracy=0.914285714 train_cost=0.003680365
+Epoch: 0079 test_accuracy=0.870229008 test_cost=0.137427071
+114.0
+Epoch: 0080 training_accuracy=0.914285714 train_cost=0.003514659
+Epoch: 0080 test_accuracy=0.870229008 test_cost=0.141157466
+114.0
+Epoch: 0081 training_accuracy=0.914285714 train_cost=0.003412859
+Epoch: 0081 test_accuracy=0.870229008 test_cost=0.140648373
+114.0
+Epoch: 0082 training_accuracy=0.914285714 train_cost=0.003276096
+Epoch: 0082 test_accuracy=0.870229008 test_cost=0.141267742
+114.0
+Epoch: 0083 training_accuracy=0.914285714 train_cost=0.003158678
+Epoch: 0083 test_accuracy=0.870229008 test_cost=0.135889322
+114.0
+Epoch: 0084 training_accuracy=0.914285714 train_cost=0.003056911
+Epoch: 0084 test_accuracy=0.870229008 test_cost=0.134481062
+114.0
+Epoch: 0085 training_accuracy=0.914285714 train_cost=0.002935986
+Epoch: 0085 test_accuracy=0.870229008 test_cost=0.140510747
+114.0
+Epoch: 0086 training_accuracy=0.914285714 train_cost=0.002843976
+Epoch: 0086 test_accuracy=0.870229008 test_cost=0.138801951
+114.0
+Epoch: 0087 training_accuracy=0.914285714 train_cost=0.002768176
+Epoch: 0087 test_accuracy=0.870229008 test_cost=0.136108331
+114.0
+Epoch: 0088 training_accuracy=0.914285714 train_cost=0.002655009
+Epoch: 0088 test_accuracy=0.870229008 test_cost=0.135028369
+114.0
+Epoch: 0089 training_accuracy=0.914285714 train_cost=0.002599843
+Epoch: 0089 test_accuracy=0.870229008 test_cost=0.132405762
+114.0
+Epoch: 0090 training_accuracy=0.914285714 train_cost=0.002499129
+Epoch: 0090 test_accuracy=0.870229008 test_cost=0.131241789
+114.0
+Epoch: 0091 training_accuracy=0.914285714 train_cost=0.002430254
+Epoch: 0091 test_accuracy=0.870229008 test_cost=0.127499222
+114.0
+Epoch: 0092 training_accuracy=0.914285714 train_cost=0.002348519
+Epoch: 0092 test_accuracy=0.870229008 test_cost=0.131258427
+114.0
+Epoch: 0093 training_accuracy=0.914285714 train_cost=0.002275296
+Epoch: 0093 test_accuracy=0.870229008 test_cost=0.128396909
+114.0
+Epoch: 0094 training_accuracy=0.914285714 train_cost=0.002230455
+Epoch: 0094 test_accuracy=0.870229008 test_cost=0.129525228
+114.0
+Epoch: 0095 training_accuracy=0.914285714 train_cost=0.002158841
+Epoch: 0095 test_accuracy=0.870229008 test_cost=0.133372075
+114.0
+Epoch: 0096 training_accuracy=0.914285714 train_cost=0.002103039
+Epoch: 0096 test_accuracy=0.870229008 test_cost=0.134372161
+114.0
+Epoch: 0097 training_accuracy=0.914285714 train_cost=0.002047689
+Epoch: 0097 test_accuracy=0.870229008 test_cost=0.125846897
+114.0
+Epoch: 0098 training_accuracy=0.914285714 train_cost=0.001992467
+Epoch: 0098 test_accuracy=0.870229008 test_cost=0.127696969
+114.0
+Epoch: 0099 training_accuracy=0.914285714 train_cost=0.001954288
+Epoch: 0099 test_accuracy=0.870229008 test_cost=0.129686087
+114.0
+Epoch: 0100 training_accuracy=0.914285714 train_cost=0.001896070
+Epoch: 0100 test_accuracy=0.870229008 test_cost=0.126840994
+114.0
+Epoch: 0101 training_accuracy=0.914285714 train_cost=0.001869561
+Epoch: 0101 test_accuracy=0.870229008 test_cost=0.125408587
+114.0
+Epoch: 0102 training_accuracy=0.914285714 train_cost=0.001825610
+Epoch: 0102 test_accuracy=0.870229008 test_cost=0.131665396
+114.0
+Epoch: 0103 training_accuracy=0.914285714 train_cost=0.001759510
+Epoch: 0103 test_accuracy=0.870229008 test_cost=0.129880605
+114.0
+Epoch: 0104 training_accuracy=0.914285714 train_cost=0.001734812
+Epoch: 0104 test_accuracy=0.870229008 test_cost=0.130574775
+114.0
+Epoch: 0105 training_accuracy=0.914285714 train_cost=0.001691981
+Epoch: 0105 test_accuracy=0.870229008 test_cost=0.132236798
+114.0
+Epoch: 0106 training_accuracy=0.914285714 train_cost=0.001672898
+Epoch: 0106 test_accuracy=0.870229008 test_cost=0.125287078
+114.0
+Epoch: 0107 training_accuracy=0.914285714 train_cost=0.001651584
+Epoch: 0107 test_accuracy=0.870229008 test_cost=0.129375602
+114.0
+Epoch: 0108 training_accuracy=0.914285714 train_cost=0.001602953
+Epoch: 0108 test_accuracy=0.870229008 test_cost=0.130918676
+114.0
+Epoch: 0109 training_accuracy=0.914285714 train_cost=0.001559068
+Epoch: 0109 test_accuracy=0.870229008 test_cost=0.124470772
+114.0
+Epoch: 0110 training_accuracy=0.914285714 train_cost=0.001543656
+Epoch: 0110 test_accuracy=0.870229008 test_cost=0.128242639
+114.0
+Epoch: 0111 training_accuracy=0.914285714 train_cost=0.001476440
+Epoch: 0111 test_accuracy=0.870229008 test_cost=0.129878127
+114.0
+Epoch: 0112 training_accuracy=0.914285714 train_cost=0.001456584
+Epoch: 0112 test_accuracy=0.870229008 test_cost=0.128867243
+114.0
+Epoch: 0113 training_accuracy=0.914285714 train_cost=0.001419739
+Epoch: 0113 test_accuracy=0.870229008 test_cost=0.129480084
+113.0
+Epoch: 0114 training_accuracy=0.914285714 train_cost=0.001421134
+Epoch: 0114 test_accuracy=0.862595420 test_cost=0.126943182
+114.0
+Epoch: 0115 training_accuracy=0.914285714 train_cost=0.001360381
+Epoch: 0115 test_accuracy=0.870229008 test_cost=0.128006557
+113.0
+Epoch: 0116 training_accuracy=0.914285714 train_cost=0.001360894
+Epoch: 0116 test_accuracy=0.862595420 test_cost=0.134245520
+114.0
+Epoch: 0117 training_accuracy=0.914285714 train_cost=0.001320168
+Epoch: 0117 test_accuracy=0.870229008 test_cost=0.129360637
+113.0
+Epoch: 0118 training_accuracy=0.914285714 train_cost=0.001293281
+Epoch: 0118 test_accuracy=0.862595420 test_cost=0.131131066
+113.0
+Epoch: 0119 training_accuracy=0.914285714 train_cost=0.001254088
+Epoch: 0119 test_accuracy=0.862595420 test_cost=0.127399588
+114.0
+Epoch: 0120 training_accuracy=0.914285714 train_cost=0.001228233
+Epoch: 0120 test_accuracy=0.870229008 test_cost=0.125687588
+114.0
+Epoch: 0121 training_accuracy=0.914285714 train_cost=0.001224143
+Epoch: 0121 test_accuracy=0.870229008 test_cost=0.129424292
+113.0
+Epoch: 0122 training_accuracy=0.914285714 train_cost=0.001186423
+Epoch: 0122 test_accuracy=0.862595420 test_cost=0.134685903
+114.0
+Epoch: 0123 training_accuracy=0.914285714 train_cost=0.001184826
+Epoch: 0123 test_accuracy=0.870229008 test_cost=0.131976211
+114.0
+Epoch: 0124 training_accuracy=0.914285714 train_cost=0.001150137
+Epoch: 0124 test_accuracy=0.870229008 test_cost=0.131161598
+114.0
+Epoch: 0125 training_accuracy=0.914285714 train_cost=0.001119834
+Epoch: 0125 test_accuracy=0.870229008 test_cost=0.128831789
+114.0
+Epoch: 0126 training_accuracy=0.914285714 train_cost=0.001106543
+Epoch: 0126 test_accuracy=0.870229008 test_cost=0.128945920
+114.0
+Epoch: 0127 training_accuracy=0.914285714 train_cost=0.001083197
+Epoch: 0127 test_accuracy=0.870229008 test_cost=0.128618704
+113.0
+Epoch: 0128 training_accuracy=0.914285714 train_cost=0.001060234
+Epoch: 0128 test_accuracy=0.862595420 test_cost=0.120322136
+114.0
+Epoch: 0129 training_accuracy=0.914285714 train_cost=0.001043838
+Epoch: 0129 test_accuracy=0.870229008 test_cost=0.130404556
+114.0
+Epoch: 0130 training_accuracy=0.914285714 train_cost=0.001025235
+Epoch: 0130 test_accuracy=0.870229008 test_cost=0.130018026
+114.0
+Epoch: 0131 training_accuracy=0.914285714 train_cost=0.000994287
+Epoch: 0131 test_accuracy=0.870229008 test_cost=0.130587222
+113.0
+Epoch: 0132 training_accuracy=0.914285714 train_cost=0.000981688
+Epoch: 0132 test_accuracy=0.862595420 test_cost=0.133323491
+114.0
+Epoch: 0133 training_accuracy=0.914285714 train_cost=0.000957279
+Epoch: 0133 test_accuracy=0.870229008 test_cost=0.125655670
+114.0
+Epoch: 0134 training_accuracy=0.914285714 train_cost=0.000956533
+Epoch: 0134 test_accuracy=0.870229008 test_cost=0.128856267
+114.0
+Epoch: 0135 training_accuracy=0.914285714 train_cost=0.000932051
+Epoch: 0135 test_accuracy=0.870229008 test_cost=0.136636879
+114.0
+Epoch: 0136 training_accuracy=0.914285714 train_cost=0.000917307
+Epoch: 0136 test_accuracy=0.870229008 test_cost=0.125726701
+114.0
+Epoch: 0137 training_accuracy=0.914285714 train_cost=0.000913885
+Epoch: 0137 test_accuracy=0.870229008 test_cost=0.127811967
+114.0
+Epoch: 0138 training_accuracy=0.914285714 train_cost=0.000878972
+Epoch: 0138 test_accuracy=0.870229008 test_cost=0.119845589
+114.0
+Epoch: 0139 training_accuracy=0.914285714 train_cost=0.000873875
+Epoch: 0139 test_accuracy=0.870229008 test_cost=0.130506134
+114.0
+Epoch: 0140 training_accuracy=0.914285714 train_cost=0.000877568
+Epoch: 0140 test_accuracy=0.870229008 test_cost=0.133433937
+114.0
+Epoch: 0141 training_accuracy=0.914285714 train_cost=0.000848250
+Epoch: 0141 test_accuracy=0.870229008 test_cost=0.129219306
+114.0
+Epoch: 0142 training_accuracy=0.914285714 train_cost=0.000835495
+Epoch: 0142 test_accuracy=0.870229008 test_cost=0.127793447
+114.0
+Epoch: 0143 training_accuracy=0.914285714 train_cost=0.000834878
+Epoch: 0143 test_accuracy=0.870229008 test_cost=0.126016823
+114.0
+Epoch: 0144 training_accuracy=0.914285714 train_cost=0.000796617
+Epoch: 0144 test_accuracy=0.870229008 test_cost=0.126660799
+114.0
+Epoch: 0145 training_accuracy=0.914285714 train_cost=0.000801048
+Epoch: 0145 test_accuracy=0.870229008 test_cost=0.132154747
+114.0
+Epoch: 0146 training_accuracy=0.914285714 train_cost=0.000785892
+Epoch: 0146 test_accuracy=0.870229008 test_cost=0.129852705
+114.0
+Epoch: 0147 training_accuracy=0.914285714 train_cost=0.000773987
+Epoch: 0147 test_accuracy=0.870229008 test_cost=0.131036437
+114.0
+Epoch: 0148 training_accuracy=0.914285714 train_cost=0.000771150
+Epoch: 0148 test_accuracy=0.870229008 test_cost=0.123747554
+114.0
+Epoch: 0149 training_accuracy=0.914285714 train_cost=0.000747457
+Epoch: 0149 test_accuracy=0.870229008 test_cost=0.119748555
+114.0
+Epoch: 0150 training_accuracy=0.914285714 train_cost=0.000730096
+Epoch: 0150 test_accuracy=0.870229008 test_cost=0.124414106
+114.0
+Epoch: 0151 training_accuracy=0.914285714 train_cost=0.000733760
+Epoch: 0151 test_accuracy=0.870229008 test_cost=0.128189087
+114.0
+Epoch: 0152 training_accuracy=0.914285714 train_cost=0.000709628
+Epoch: 0152 test_accuracy=0.870229008 test_cost=0.127013135
+114.0
+Epoch: 0153 training_accuracy=0.914285714 train_cost=0.000704601
+Epoch: 0153 test_accuracy=0.870229008 test_cost=0.124412196
+114.0
+Epoch: 0154 training_accuracy=0.914285714 train_cost=0.000696533
+Epoch: 0154 test_accuracy=0.870229008 test_cost=0.126446809
+114.0
+Epoch: 0155 training_accuracy=0.914285714 train_cost=0.000676152
+Epoch: 0155 test_accuracy=0.870229008 test_cost=0.125406661
+114.0
+Epoch: 0156 training_accuracy=0.914285714 train_cost=0.000676524
+Epoch: 0156 test_accuracy=0.870229008 test_cost=0.124212399
+114.0
+Epoch: 0157 training_accuracy=0.914285714 train_cost=0.000689088
+Epoch: 0157 test_accuracy=0.870229008 test_cost=0.120783427
+114.0
+Epoch: 0158 training_accuracy=0.914285714 train_cost=0.000657104
+Epoch: 0158 test_accuracy=0.870229008 test_cost=0.122622918
+114.0
+Epoch: 0159 training_accuracy=0.914285714 train_cost=0.000652915
+Epoch: 0159 test_accuracy=0.870229008 test_cost=0.121417129
+114.0
+Epoch: 0160 training_accuracy=0.914285714 train_cost=0.000647600
+Epoch: 0160 test_accuracy=0.870229008 test_cost=0.119078971
+114.0
+Epoch: 0161 training_accuracy=0.914285714 train_cost=0.000632915
+Epoch: 0161 test_accuracy=0.870229008 test_cost=0.123637833
+114.0
+Epoch: 0162 training_accuracy=0.914285714 train_cost=0.000628176
+Epoch: 0162 test_accuracy=0.870229008 test_cost=0.123515738
+114.0
+Epoch: 0163 training_accuracy=0.914285714 train_cost=0.000620225
+Epoch: 0163 test_accuracy=0.870229008 test_cost=0.128895000
+114.0
+Epoch: 0164 training_accuracy=0.914285714 train_cost=0.000619689
+Epoch: 0164 test_accuracy=0.870229008 test_cost=0.120923910
+114.0
+Epoch: 0165 training_accuracy=0.914285714 train_cost=0.000630410
+Epoch: 0165 test_accuracy=0.870229008 test_cost=0.122550116
+114.0
+Epoch: 0166 training_accuracy=0.914285714 train_cost=0.000597947
+Epoch: 0166 test_accuracy=0.870229008 test_cost=0.128901906
+114.0
+Epoch: 0167 training_accuracy=0.914285714 train_cost=0.000598192
+Epoch: 0167 test_accuracy=0.870229008 test_cost=0.120927113
+114.0
+Epoch: 0168 training_accuracy=0.914285714 train_cost=0.000587664
+Epoch: 0168 test_accuracy=0.870229008 test_cost=0.127512238
+114.0
+Epoch: 0169 training_accuracy=0.914285714 train_cost=0.000589751
+Epoch: 0169 test_accuracy=0.870229008 test_cost=0.119282813
+114.0
+Epoch: 0170 training_accuracy=0.914285714 train_cost=0.000575408
+Epoch: 0170 test_accuracy=0.870229008 test_cost=0.112004882
+113.0
+Epoch: 0171 training_accuracy=0.914285714 train_cost=0.000575458
+Epoch: 0171 test_accuracy=0.862595420 test_cost=0.137076611
+114.0
+Epoch: 0172 training_accuracy=0.914285714 train_cost=0.000563728
+Epoch: 0172 test_accuracy=0.870229008 test_cost=0.122468507
+113.0
+Epoch: 0173 training_accuracy=0.914285714 train_cost=0.000555361
+Epoch: 0173 test_accuracy=0.862595420 test_cost=0.125675413
+113.0
+Epoch: 0174 training_accuracy=0.914285714 train_cost=0.000533282
+Epoch: 0174 test_accuracy=0.862595420 test_cost=0.132017410
+113.0
+Epoch: 0175 training_accuracy=0.914285714 train_cost=0.000531943
+Epoch: 0175 test_accuracy=0.862595420 test_cost=0.147258312
+113.0
+Epoch: 0176 training_accuracy=0.914285714 train_cost=0.000533215
+Epoch: 0176 test_accuracy=0.862595420 test_cost=0.129631736
+113.0
+Epoch: 0177 training_accuracy=0.914285714 train_cost=0.000520527
+Epoch: 0177 test_accuracy=0.862595420 test_cost=0.131584780
+113.0
+Epoch: 0178 training_accuracy=0.914285714 train_cost=0.000519518
+Epoch: 0178 test_accuracy=0.862595420 test_cost=0.139966959
+113.0
+Epoch: 0179 training_accuracy=0.914285714 train_cost=0.000516437
+Epoch: 0179 test_accuracy=0.862595420 test_cost=0.136090811
+113.0
+Epoch: 0180 training_accuracy=0.914285714 train_cost=0.000517231
+Epoch: 0180 test_accuracy=0.862595420 test_cost=0.150934799
+113.0
+Epoch: 0181 training_accuracy=0.914285714 train_cost=0.000493877
+Epoch: 0181 test_accuracy=0.862595420 test_cost=0.144011156
+113.0
+Epoch: 0182 training_accuracy=0.914285714 train_cost=0.000487087
+Epoch: 0182 test_accuracy=0.862595420 test_cost=0.137752411
+113.0
+Epoch: 0183 training_accuracy=0.914285714 train_cost=0.000485261
+Epoch: 0183 test_accuracy=0.862595420 test_cost=0.133785788
+113.0
+Epoch: 0184 training_accuracy=0.914285714 train_cost=0.000489008
+Epoch: 0184 test_accuracy=0.862595420 test_cost=0.141189038
+113.0
+Epoch: 0185 training_accuracy=0.914285714 train_cost=0.000502742
+Epoch: 0185 test_accuracy=0.862595420 test_cost=0.137726652
+113.0
+Epoch: 0186 training_accuracy=0.914285714 train_cost=0.000457897
+Epoch: 0186 test_accuracy=0.862595420 test_cost=0.129707559
+113.0
+Epoch: 0187 training_accuracy=0.914285714 train_cost=0.000488942
+Epoch: 0187 test_accuracy=0.862595420 test_cost=0.139812785
+113.0
+Epoch: 0188 training_accuracy=0.914285714 train_cost=0.000474319
+Epoch: 0188 test_accuracy=0.862595420 test_cost=0.137853893
+113.0
+Epoch: 0189 training_accuracy=0.914285714 train_cost=0.000461019
+Epoch: 0189 test_accuracy=0.862595420 test_cost=0.140754964
+113.0
+Epoch: 0190 training_accuracy=0.914285714 train_cost=0.000487694
+Epoch: 0190 test_accuracy=0.862595420 test_cost=0.128588430
+113.0
+Epoch: 0191 training_accuracy=0.914285714 train_cost=0.000455105
+Epoch: 0191 test_accuracy=0.862595420 test_cost=0.127509327
+113.0
+Epoch: 0192 training_accuracy=0.914285714 train_cost=0.000451977
+Epoch: 0192 test_accuracy=0.862595420 test_cost=0.139286604
+112.0
+Epoch: 0193 training_accuracy=0.914285714 train_cost=0.000461585
+Epoch: 0193 test_accuracy=0.854961832 test_cost=0.169446773
+113.0
+Epoch: 0194 training_accuracy=0.914285714 train_cost=0.000454492
+Epoch: 0194 test_accuracy=0.862595420 test_cost=0.145022457
+113.0
+Epoch: 0195 training_accuracy=0.914285714 train_cost=0.000473489
+Epoch: 0195 test_accuracy=0.862595420 test_cost=0.134946852
+112.0
+Epoch: 0196 training_accuracy=0.914285714 train_cost=0.000455219
+Epoch: 0196 test_accuracy=0.854961832 test_cost=0.157150874
+113.0
+Epoch: 0197 training_accuracy=0.914285714 train_cost=0.000455721
+Epoch: 0197 test_accuracy=0.862595420 test_cost=0.136706931
+113.0
+Epoch: 0198 training_accuracy=0.914285714 train_cost=0.000426192
+Epoch: 0198 test_accuracy=0.862595420 test_cost=0.139705177
+113.0
+Epoch: 0199 training_accuracy=0.914285714 train_cost=0.000420109
+Epoch: 0199 test_accuracy=0.862595420 test_cost=0.151345466
+113.0
+Epoch: 0200 training_accuracy=0.914285714 train_cost=0.000478530
+Epoch: 0200 test_accuracy=0.862595420 test_cost=0.132571662
+113.0
+Epoch: 0201 training_accuracy=0.914285714 train_cost=0.000425330
+Epoch: 0201 test_accuracy=0.862595420 test_cost=0.142586097
+113.0
+Epoch: 0202 training_accuracy=0.914285714 train_cost=0.000417502
+Epoch: 0202 test_accuracy=0.862595420 test_cost=0.134129156
+113.0
+Epoch: 0203 training_accuracy=0.914285714 train_cost=0.000434548
+Epoch: 0203 test_accuracy=0.862595420 test_cost=0.147059625
+113.0
+Epoch: 0204 training_accuracy=0.914285714 train_cost=0.000426326
+Epoch: 0204 test_accuracy=0.862595420 test_cost=0.141185636
+112.0
+Epoch: 0205 training_accuracy=0.914285714 train_cost=0.000410468
+Epoch: 0205 test_accuracy=0.854961832 test_cost=0.142799590
+113.0
+Epoch: 0206 training_accuracy=0.914285714 train_cost=0.000425894
+Epoch: 0206 test_accuracy=0.862595420 test_cost=0.153021952
+113.0
+Epoch: 0207 training_accuracy=0.914285714 train_cost=0.000417465
+Epoch: 0207 test_accuracy=0.862595420 test_cost=0.137197199
+113.0
+Epoch: 0208 training_accuracy=0.914285714 train_cost=0.000427171
+Epoch: 0208 test_accuracy=0.862595420 test_cost=0.138468662
+113.0
+Epoch: 0209 training_accuracy=0.914285714 train_cost=0.000412802
+Epoch: 0209 test_accuracy=0.862595420 test_cost=0.152428008
+113.0
+Epoch: 0210 training_accuracy=0.914285714 train_cost=0.000420171
+Epoch: 0210 test_accuracy=0.862595420 test_cost=0.154917222
+114.0
+Epoch: 0211 training_accuracy=0.914285714 train_cost=0.000434693
+Epoch: 0211 test_accuracy=0.870229008 test_cost=0.146864091
+112.0
+Epoch: 0212 training_accuracy=0.914285714 train_cost=0.000421623
+Epoch: 0212 test_accuracy=0.854961832 test_cost=0.156704356
+113.0
+Epoch: 0213 training_accuracy=0.914285714 train_cost=0.000439623
+Epoch: 0213 test_accuracy=0.862595420 test_cost=0.161896378
+113.0
+Epoch: 0214 training_accuracy=0.914285714 train_cost=0.000421495
+Epoch: 0214 test_accuracy=0.862595420 test_cost=0.154853002
+112.0
+Epoch: 0215 training_accuracy=0.914285714 train_cost=0.000404288
+Epoch: 0215 test_accuracy=0.854961832 test_cost=0.162717209
+113.0
+Epoch: 0216 training_accuracy=0.914285714 train_cost=0.000416195
+Epoch: 0216 test_accuracy=0.862595420 test_cost=0.165725801
+114.0
+Epoch: 0217 training_accuracy=0.914285714 train_cost=0.000475979
+Epoch: 0217 test_accuracy=0.870229008 test_cost=0.147280993
+113.0
+Epoch: 0218 training_accuracy=0.914285714 train_cost=0.000401311
+Epoch: 0218 test_accuracy=0.862595420 test_cost=0.155285805
+114.0
+Epoch: 0219 training_accuracy=0.914285714 train_cost=0.000373070
+Epoch: 0219 test_accuracy=0.870229008 test_cost=0.159008979
+114.0
+Epoch: 0220 training_accuracy=0.914285714 train_cost=0.000425137
+Epoch: 0220 test_accuracy=0.870229008 test_cost=0.149459479
+112.0
+Epoch: 0221 training_accuracy=0.914285714 train_cost=0.000501824
+Epoch: 0221 test_accuracy=0.854961832 test_cost=0.155184790
+113.0
+Epoch: 0222 training_accuracy=0.914285714 train_cost=0.000393758
+Epoch: 0222 test_accuracy=0.862595420 test_cost=0.171187909
+113.0
+Epoch: 0223 training_accuracy=0.914285714 train_cost=0.000434200
+Epoch: 0223 test_accuracy=0.862595420 test_cost=0.157345218
+113.0
+Epoch: 0224 training_accuracy=0.914285714 train_cost=0.000399353
+Epoch: 0224 test_accuracy=0.862595420 test_cost=0.151597873
+113.0
+Epoch: 0225 training_accuracy=0.914285714 train_cost=0.000392531
+Epoch: 0225 test_accuracy=0.862595420 test_cost=0.149509851
+113.0
+Epoch: 0226 training_accuracy=0.914285714 train_cost=0.000408001
+Epoch: 0226 test_accuracy=0.862595420 test_cost=0.163007480
+113.0
+Epoch: 0227 training_accuracy=0.914285714 train_cost=0.000454169
+Epoch: 0227 test_accuracy=0.862595420 test_cost=0.183976198
+112.0
+Epoch: 0228 training_accuracy=0.914285714 train_cost=0.000378148
+Epoch: 0228 test_accuracy=0.854961832 test_cost=0.172316091
+113.0
+Epoch: 0229 training_accuracy=0.914285714 train_cost=0.000383768
+Epoch: 0229 test_accuracy=0.862595420 test_cost=0.145638001
+113.0
+Epoch: 0230 training_accuracy=0.914285714 train_cost=0.000425658
+Epoch: 0230 test_accuracy=0.862595420 test_cost=0.165472928
+113.0
+Epoch: 0231 training_accuracy=0.914285714 train_cost=0.000435197
+Epoch: 0231 test_accuracy=0.862595420 test_cost=0.169520659
+113.0
+Epoch: 0232 training_accuracy=0.914285714 train_cost=0.000471313
+Epoch: 0232 test_accuracy=0.862595420 test_cost=0.161601127
+113.0
+Epoch: 0233 training_accuracy=0.914285714 train_cost=0.000444881
+Epoch: 0233 test_accuracy=0.862595420 test_cost=0.169523261
+113.0
+Epoch: 0234 training_accuracy=0.914285714 train_cost=0.000468497
+Epoch: 0234 test_accuracy=0.862595420 test_cost=0.168272982
+113.0
+Epoch: 0235 training_accuracy=0.914285714 train_cost=0.000487902
+Epoch: 0235 test_accuracy=0.862595420 test_cost=0.186800404
+114.0
+Epoch: 0236 training_accuracy=0.914285714 train_cost=0.000493008
+Epoch: 0236 test_accuracy=0.870229008 test_cost=0.170038123
+114.0
+Epoch: 0237 training_accuracy=0.914285714 train_cost=0.000493524
+Epoch: 0237 test_accuracy=0.870229008 test_cost=0.173729696
+113.0
+Epoch: 0238 training_accuracy=0.914285714 train_cost=0.000497194
+Epoch: 0238 test_accuracy=0.862595420 test_cost=0.184356443
+113.0
+Epoch: 0239 training_accuracy=0.914285714 train_cost=0.000429740
+Epoch: 0239 test_accuracy=0.862595420 test_cost=0.166290544
+113.0
+Epoch: 0240 training_accuracy=0.914285714 train_cost=0.000440267
+Epoch: 0240 test_accuracy=0.862595420 test_cost=0.158213122
+113.0
+Epoch: 0241 training_accuracy=0.914285714 train_cost=0.000457708
+Epoch: 0241 test_accuracy=0.862595420 test_cost=0.191340414
+112.0
+Epoch: 0242 training_accuracy=0.914285714 train_cost=0.000485178
+Epoch: 0242 test_accuracy=0.854961832 test_cost=0.164271080
+113.0
+Epoch: 0243 training_accuracy=0.914285714 train_cost=0.000446703
+Epoch: 0243 test_accuracy=0.862595420 test_cost=0.207433495
+112.0
+Epoch: 0244 training_accuracy=0.914285714 train_cost=0.000454771
+Epoch: 0244 test_accuracy=0.854961832 test_cost=0.187749641
+114.0
+Epoch: 0245 training_accuracy=0.914285714 train_cost=0.000464551
+Epoch: 0245 test_accuracy=0.870229008 test_cost=0.184308490
+114.0
+Epoch: 0246 training_accuracy=0.914285714 train_cost=0.000508928
+Epoch: 0246 test_accuracy=0.870229008 test_cost=0.172686219
+113.0
+Epoch: 0247 training_accuracy=0.914285714 train_cost=0.000468378
+Epoch: 0247 test_accuracy=0.862595420 test_cost=0.188003310
+114.0
+Epoch: 0248 training_accuracy=0.914285714 train_cost=0.000548036
+Epoch: 0248 test_accuracy=0.870229008 test_cost=0.170648777
+113.0
+Epoch: 0249 training_accuracy=0.914285714 train_cost=0.000483939
+Epoch: 0249 test_accuracy=0.862595420 test_cost=0.182692455
+113.0
+Epoch: 0250 training_accuracy=0.914285714 train_cost=0.000516560
+Epoch: 0250 test_accuracy=0.862595420 test_cost=0.165578267
+113.0
+Epoch: 0251 training_accuracy=0.914285714 train_cost=0.000516428
+Epoch: 0251 test_accuracy=0.862595420 test_cost=0.161221544
+113.0
+Epoch: 0252 training_accuracy=0.914285714 train_cost=0.000422248
+Epoch: 0252 test_accuracy=0.862595420 test_cost=0.187363417
+113.0
+Epoch: 0253 training_accuracy=0.914285714 train_cost=0.000468851
+Epoch: 0253 test_accuracy=0.862595420 test_cost=0.184743034
+113.0
+Epoch: 0254 training_accuracy=0.914285714 train_cost=0.000524812
+Epoch: 0254 test_accuracy=0.862595420 test_cost=0.172746616
+112.0
+Epoch: 0255 training_accuracy=0.914285714 train_cost=0.000558963
+Epoch: 0255 test_accuracy=0.854961832 test_cost=0.191681753
+114.0
+Epoch: 0256 training_accuracy=0.914285714 train_cost=0.000490864
+Epoch: 0256 test_accuracy=0.870229008 test_cost=0.175460565
+113.0
+Epoch: 0257 training_accuracy=0.914285714 train_cost=0.000461739
+Epoch: 0257 test_accuracy=0.862595420 test_cost=0.166819954
+113.0
+Epoch: 0258 training_accuracy=0.914285714 train_cost=0.000541778
+Epoch: 0258 test_accuracy=0.862595420 test_cost=0.167133307
+114.0
+Epoch: 0259 training_accuracy=0.914285714 train_cost=0.000422920
+Epoch: 0259 test_accuracy=0.870229008 test_cost=0.178055501
+113.0
+Epoch: 0260 training_accuracy=0.914285714 train_cost=0.000423021
+Epoch: 0260 test_accuracy=0.862595420 test_cost=0.172955999
+113.0
+Epoch: 0261 training_accuracy=0.914285714 train_cost=0.000549179
+Epoch: 0261 test_accuracy=0.862595420 test_cost=0.182230737
+113.0
+Epoch: 0262 training_accuracy=0.914285714 train_cost=0.000570227
+Epoch: 0262 test_accuracy=0.862595420 test_cost=0.225652054
+113.0
+Epoch: 0263 training_accuracy=0.914285714 train_cost=0.000579067
+Epoch: 0263 test_accuracy=0.862595420 test_cost=0.210689303
+113.0
+Epoch: 0264 training_accuracy=0.914285714 train_cost=0.000481538
+Epoch: 0264 test_accuracy=0.862595420 test_cost=0.191079283
+114.0
+Epoch: 0265 training_accuracy=0.914285714 train_cost=0.000691971
+Epoch: 0265 test_accuracy=0.870229008 test_cost=0.181628378
+113.0
+Epoch: 0266 training_accuracy=0.914285714 train_cost=0.000479655
+Epoch: 0266 test_accuracy=0.862595420 test_cost=0.175664506
+113.0
+Epoch: 0267 training_accuracy=0.914285714 train_cost=0.000521892
+Epoch: 0267 test_accuracy=0.862595420 test_cost=0.195668882
+114.0
+Epoch: 0268 training_accuracy=0.914285714 train_cost=0.000563810
+Epoch: 0268 test_accuracy=0.870229008 test_cost=0.214924042
+114.0
+Epoch: 0269 training_accuracy=0.914285714 train_cost=0.000464275
+Epoch: 0269 test_accuracy=0.870229008 test_cost=0.183204243
+112.0
+Epoch: 0270 training_accuracy=0.914285714 train_cost=0.000516759
+Epoch: 0270 test_accuracy=0.854961832 test_cost=0.206267641
+112.0
+Epoch: 0271 training_accuracy=0.914285714 train_cost=0.000710826
+Epoch: 0271 test_accuracy=0.854961832 test_cost=0.198266290
+113.0
+Epoch: 0272 training_accuracy=0.914285714 train_cost=0.000551521
+Epoch: 0272 test_accuracy=0.862595420 test_cost=0.205761833
+114.0
+Epoch: 0273 training_accuracy=0.914285714 train_cost=0.000591184
+Epoch: 0273 test_accuracy=0.870229008 test_cost=0.229068511
+112.0
+Epoch: 0274 training_accuracy=0.914285714 train_cost=0.000514754
+Epoch: 0274 test_accuracy=0.854961832 test_cost=0.229066554
+113.0
+Epoch: 0275 training_accuracy=0.914285714 train_cost=0.000678889
+Epoch: 0275 test_accuracy=0.862595420 test_cost=0.223561125
+113.0
+Epoch: 0276 training_accuracy=0.914285714 train_cost=0.000706095
+Epoch: 0276 test_accuracy=0.862595420 test_cost=0.194455709
+113.0
+Epoch: 0277 training_accuracy=0.914285714 train_cost=0.000621045
+Epoch: 0277 test_accuracy=0.862595420 test_cost=0.175468158
+114.0
+Epoch: 0278 training_accuracy=0.914285714 train_cost=0.000528653
+Epoch: 0278 test_accuracy=0.870229008 test_cost=0.183644574
+113.0
+Epoch: 0279 training_accuracy=0.914285714 train_cost=0.000774913
+Epoch: 0279 test_accuracy=0.862595420 test_cost=0.185068422
+112.0
+Epoch: 0280 training_accuracy=0.914285714 train_cost=0.000444874
+Epoch: 0280 test_accuracy=0.854961832 test_cost=0.209524262
+114.0
+Epoch: 0281 training_accuracy=0.914285714 train_cost=0.000616953
+Epoch: 0281 test_accuracy=0.870229008 test_cost=0.200068804
+114.0
+Epoch: 0282 training_accuracy=0.914285714 train_cost=0.000602342
+Epoch: 0282 test_accuracy=0.870229008 test_cost=0.195250171
+113.0
+Epoch: 0283 training_accuracy=0.914285714 train_cost=0.000514283
+Epoch: 0283 test_accuracy=0.862595420 test_cost=0.211052856
+114.0
+Epoch: 0284 training_accuracy=0.914285714 train_cost=0.000687747
+Epoch: 0284 test_accuracy=0.870229008 test_cost=0.191195351
+112.0
+Epoch: 0285 training_accuracy=0.914285714 train_cost=0.000722012
+Epoch: 0285 test_accuracy=0.854961832 test_cost=0.218500268
+112.0
+Epoch: 0286 training_accuracy=0.914285714 train_cost=0.000732256
+Epoch: 0286 test_accuracy=0.854961832 test_cost=0.239074902
+112.0
+Epoch: 0287 training_accuracy=0.914285714 train_cost=0.000819679
+Epoch: 0287 test_accuracy=0.854961832 test_cost=0.206134169
+111.0
+Epoch: 0288 training_accuracy=0.914285714 train_cost=0.000648155
+Epoch: 0288 test_accuracy=0.847328244 test_cost=0.230607949
+113.0
+Epoch: 0289 training_accuracy=0.914285714 train_cost=0.000818493
+Epoch: 0289 test_accuracy=0.862595420 test_cost=0.212065993
+114.0
+Epoch: 0290 training_accuracy=0.914285714 train_cost=0.000642863
+Epoch: 0290 test_accuracy=0.870229008 test_cost=0.209854391
+113.0
+Epoch: 0291 training_accuracy=0.914285714 train_cost=0.000698747
+Epoch: 0291 test_accuracy=0.862595420 test_cost=0.210405066
+112.0
+Epoch: 0292 training_accuracy=0.914285714 train_cost=0.000641049
+Epoch: 0292 test_accuracy=0.854961832 test_cost=0.223073988
+113.0
+Epoch: 0293 training_accuracy=0.914285714 train_cost=0.000787803
+Epoch: 0293 test_accuracy=0.862595420 test_cost=0.194098036
+114.0
+Epoch: 0294 training_accuracy=0.914285714 train_cost=0.000567913
+Epoch: 0294 test_accuracy=0.870229008 test_cost=0.208272368
+114.0
+Epoch: 0295 training_accuracy=0.914285714 train_cost=0.000546947
+Epoch: 0295 test_accuracy=0.870229008 test_cost=0.201037972
+112.0
+Epoch: 0296 training_accuracy=0.914285714 train_cost=0.000861059
+Epoch: 0296 test_accuracy=0.854961832 test_cost=0.238081842
+113.0
+Epoch: 0297 training_accuracy=0.914285714 train_cost=0.000769916
+Epoch: 0297 test_accuracy=0.862595420 test_cost=0.216463006
+112.0
+Epoch: 0298 training_accuracy=0.914285714 train_cost=0.000807137
+Epoch: 0298 test_accuracy=0.854961832 test_cost=0.218011049
+112.0
+Epoch: 0299 training_accuracy=0.914285714 train_cost=0.000750936
+Epoch: 0299 test_accuracy=0.854961832 test_cost=0.201890118
+113.0
+Epoch: 0300 training_accuracy=0.914285714 train_cost=0.000691848
+Epoch: 0300 test_accuracy=0.862595420 test_cost=0.194831188
+112.0
+Epoch: 0301 training_accuracy=0.914285714 train_cost=0.000624884
+Epoch: 0301 test_accuracy=0.854961832 test_cost=0.276132992
+114.0
+Epoch: 0302 training_accuracy=0.913690476 train_cost=0.001317269
+Epoch: 0302 test_accuracy=0.870229008 test_cost=0.204542158
+112.0
+Epoch: 0303 training_accuracy=0.914285714 train_cost=0.000762495
+Epoch: 0303 test_accuracy=0.854961832 test_cost=0.246856175
+113.0
+Epoch: 0304 training_accuracy=0.914285714 train_cost=0.000826550
+Epoch: 0304 test_accuracy=0.862595420 test_cost=0.227399314
+114.0
+Epoch: 0305 training_accuracy=0.914285714 train_cost=0.000696594
+Epoch: 0305 test_accuracy=0.870229008 test_cost=0.215240524
+112.0
+Epoch: 0306 training_accuracy=0.914285714 train_cost=0.000576239
+Epoch: 0306 test_accuracy=0.854961832 test_cost=0.223841271
+112.0
+Epoch: 0307 training_accuracy=0.914285714 train_cost=0.000800766
+Epoch: 0307 test_accuracy=0.854961832 test_cost=0.267210868
+114.0
+Epoch: 0308 training_accuracy=0.914285714 train_cost=0.000944506
+Epoch: 0308 test_accuracy=0.870229008 test_cost=0.219012037
+112.0
+Epoch: 0309 training_accuracy=0.914285714 train_cost=0.000969100
+Epoch: 0309 test_accuracy=0.854961832 test_cost=0.227114156
+113.0
+Epoch: 0310 training_accuracy=0.914285714 train_cost=0.000775189
+Epoch: 0310 test_accuracy=0.862595420 test_cost=0.236791385
+113.0
+Epoch: 0311 training_accuracy=0.914285714 train_cost=0.000918660
+Epoch: 0311 test_accuracy=0.862595420 test_cost=0.188315150
+111.0
+Epoch: 0312 training_accuracy=0.914285714 train_cost=0.001084189
+Epoch: 0312 test_accuracy=0.847328244 test_cost=0.251430146
+114.0
+Epoch: 0313 training_accuracy=0.914285714 train_cost=0.000901928
+Epoch: 0313 test_accuracy=0.870229008 test_cost=0.204492033
+113.0
+Epoch: 0314 training_accuracy=0.914285714 train_cost=0.000688304
+Epoch: 0314 test_accuracy=0.862595420 test_cost=0.212438810
+112.0
+Epoch: 0315 training_accuracy=0.914285714 train_cost=0.000675313
+Epoch: 0315 test_accuracy=0.854961832 test_cost=0.242225559
+114.0
+Epoch: 0316 training_accuracy=0.914285714 train_cost=0.000678352
+Epoch: 0316 test_accuracy=0.870229008 test_cost=0.210743090
+113.0
+Epoch: 0317 training_accuracy=0.914285714 train_cost=0.000662180
+Epoch: 0317 test_accuracy=0.862595420 test_cost=0.215959644
+112.0
+Epoch: 0318 training_accuracy=0.914285714 train_cost=0.000732815
+Epoch: 0318 test_accuracy=0.854961832 test_cost=0.217999962
+113.0
+Epoch: 0319 training_accuracy=0.914285714 train_cost=0.001009184
+Epoch: 0319 test_accuracy=0.862595420 test_cost=0.205998776
+111.0
+Epoch: 0320 training_accuracy=0.914285714 train_cost=0.000619248
+Epoch: 0320 test_accuracy=0.847328244 test_cost=0.262248152
+111.0
+Epoch: 0321 training_accuracy=0.914285714 train_cost=0.000814104
+Epoch: 0321 test_accuracy=0.847328244 test_cost=0.245892636
+112.0
+Epoch: 0322 training_accuracy=0.914285714 train_cost=0.001094019
+Epoch: 0322 test_accuracy=0.854961832 test_cost=0.226682107
+113.0
+Epoch: 0323 training_accuracy=0.914285714 train_cost=0.000740172
+Epoch: 0323 test_accuracy=0.862595420 test_cost=0.237191542
+112.0
+Epoch: 0324 training_accuracy=0.914285714 train_cost=0.000802191
+Epoch: 0324 test_accuracy=0.854961832 test_cost=0.216225772
+111.0
+Epoch: 0325 training_accuracy=0.914285714 train_cost=0.001109500
+Epoch: 0325 test_accuracy=0.847328244 test_cost=0.231076362
+113.0
+Epoch: 0326 training_accuracy=0.914285714 train_cost=0.000864357
+Epoch: 0326 test_accuracy=0.862595420 test_cost=0.210123535
+111.0
+Epoch: 0327 training_accuracy=0.914285714 train_cost=0.000940989
+Epoch: 0327 test_accuracy=0.847328244 test_cost=0.269369024
+110.0
+Epoch: 0328 training_accuracy=0.914285714 train_cost=0.000862994
+Epoch: 0328 test_accuracy=0.839694656 test_cost=0.270355371
+110.0
+Epoch: 0329 training_accuracy=0.914285714 train_cost=0.001105009
+Epoch: 0329 test_accuracy=0.839694656 test_cost=0.279866794
+112.0
+Epoch: 0330 training_accuracy=0.914285714 train_cost=0.000963202
+Epoch: 0330 test_accuracy=0.854961832 test_cost=0.233689252
+111.0
+Epoch: 0331 training_accuracy=0.914285714 train_cost=0.000788416
+Epoch: 0331 test_accuracy=0.847328244 test_cost=0.269301561
+113.0
+Epoch: 0332 training_accuracy=0.914285714 train_cost=0.000773348
+Epoch: 0332 test_accuracy=0.862595420 test_cost=0.220938238
+112.0
+Epoch: 0333 training_accuracy=0.914285714 train_cost=0.000919296
+Epoch: 0333 test_accuracy=0.854961832 test_cost=0.259612085
+110.0
+Epoch: 0334 training_accuracy=0.914285714 train_cost=0.000833266
+Epoch: 0334 test_accuracy=0.839694656 test_cost=0.240842415
+113.0
+Epoch: 0335 training_accuracy=0.914285714 train_cost=0.000868701
+Epoch: 0335 test_accuracy=0.862595420 test_cost=0.211577218
+110.0
+Epoch: 0336 training_accuracy=0.914285714 train_cost=0.001082263
+Epoch: 0336 test_accuracy=0.839694656 test_cost=0.248223593
+110.0
+Epoch: 0337 training_accuracy=0.914285714 train_cost=0.000842868
+Epoch: 0337 test_accuracy=0.839694656 test_cost=0.250397073
+111.0
+Epoch: 0338 training_accuracy=0.914285714 train_cost=0.001197414
+Epoch: 0338 test_accuracy=0.847328244 test_cost=0.236900352
+111.0
+Epoch: 0339 training_accuracy=0.914285714 train_cost=0.001093176
+Epoch: 0339 test_accuracy=0.847328244 test_cost=0.258586716
+109.0
+Epoch: 0340 training_accuracy=0.913690476 train_cost=0.002153424
+Epoch: 0340 test_accuracy=0.832061069 test_cost=0.252123310
+112.0
+Epoch: 0341 training_accuracy=0.914285714 train_cost=0.000802116
+Epoch: 0341 test_accuracy=0.854961832 test_cost=0.254043796
+111.0
+Epoch: 0342 training_accuracy=0.914285714 train_cost=0.001402316
+Epoch: 0342 test_accuracy=0.847328244 test_cost=0.245480708
+111.0
+Epoch: 0343 training_accuracy=0.914285714 train_cost=0.001034359
+Epoch: 0343 test_accuracy=0.847328244 test_cost=0.245257270
+112.0
+Epoch: 0344 training_accuracy=0.914285714 train_cost=0.000795174
+Epoch: 0344 test_accuracy=0.854961832 test_cost=0.224873852
+111.0
+Epoch: 0345 training_accuracy=0.913690476 train_cost=0.001542694
+Epoch: 0345 test_accuracy=0.847328244 test_cost=0.245693178
+111.0
+Epoch: 0346 training_accuracy=0.914285714 train_cost=0.000643236
+Epoch: 0346 test_accuracy=0.847328244 test_cost=0.243495976
+111.0
+Epoch: 0347 training_accuracy=0.914285714 train_cost=0.001114339
+Epoch: 0347 test_accuracy=0.847328244 test_cost=0.298478226
+111.0
+Epoch: 0348 training_accuracy=0.914285714 train_cost=0.000894674
+Epoch: 0348 test_accuracy=0.847328244 test_cost=0.275121333
+109.0
+Epoch: 0349 training_accuracy=0.914285714 train_cost=0.001375862
+Epoch: 0349 test_accuracy=0.832061069 test_cost=0.282700751
+111.0
+Epoch: 0350 training_accuracy=0.914285714 train_cost=0.001101692
+Epoch: 0350 test_accuracy=0.847328244 test_cost=0.254812474
+112.0
+Epoch: 0351 training_accuracy=0.914285714 train_cost=0.001052337
+Epoch: 0351 test_accuracy=0.854961832 test_cost=0.274210935
+111.0
+Epoch: 0352 training_accuracy=0.914285714 train_cost=0.000788191
+Epoch: 0352 test_accuracy=0.847328244 test_cost=0.311881454
+111.0
+Epoch: 0353 training_accuracy=0.914285714 train_cost=0.001074579
+Epoch: 0353 test_accuracy=0.847328244 test_cost=0.274197512
+109.0
+Epoch: 0354 training_accuracy=0.914285714 train_cost=0.001145224
+Epoch: 0354 test_accuracy=0.832061069 test_cost=0.322232018
+111.0
+Epoch: 0355 training_accuracy=0.914285714 train_cost=0.001547674
+Epoch: 0355 test_accuracy=0.847328244 test_cost=0.293860745
+109.0
+Epoch: 0356 training_accuracy=0.914285714 train_cost=0.001161556
+Epoch: 0356 test_accuracy=0.832061069 test_cost=0.265453217
+110.0
+Epoch: 0357 training_accuracy=0.914285714 train_cost=0.001090948
+Epoch: 0357 test_accuracy=0.839694656 test_cost=0.292752523
+113.0
+Epoch: 0358 training_accuracy=0.914285714 train_cost=0.001013504
+Epoch: 0358 test_accuracy=0.862595420 test_cost=0.215616145
+112.0
+Epoch: 0359 training_accuracy=0.913690476 train_cost=0.001166664
+Epoch: 0359 test_accuracy=0.854961832 test_cost=0.241762415
+110.0
+Epoch: 0360 training_accuracy=0.914285714 train_cost=0.001052221
+Epoch: 0360 test_accuracy=0.839694656 test_cost=0.238827140
+109.0
+Epoch: 0361 training_accuracy=0.913690476 train_cost=0.001782946
+Epoch: 0361 test_accuracy=0.832061069 test_cost=0.311798878
+111.0
+Epoch: 0362 training_accuracy=0.914285714 train_cost=0.001036018
+Epoch: 0362 test_accuracy=0.847328244 test_cost=0.263994806
+111.0
+Epoch: 0363 training_accuracy=0.914285714 train_cost=0.001574470
+Epoch: 0363 test_accuracy=0.847328244 test_cost=0.255192756
+110.0
+Epoch: 0364 training_accuracy=0.914285714 train_cost=0.001164838
+Epoch: 0364 test_accuracy=0.839694656 test_cost=0.269239786
+110.0
+Epoch: 0365 training_accuracy=0.914285714 train_cost=0.001557587
+Epoch: 0365 test_accuracy=0.839694656 test_cost=0.283382718
+107.0
+Epoch: 0366 training_accuracy=0.914285714 train_cost=0.001381568
+Epoch: 0366 test_accuracy=0.816793893 test_cost=0.367439385
+109.0
+Epoch: 0367 training_accuracy=0.914285714 train_cost=0.001183178
+Epoch: 0367 test_accuracy=0.832061069 test_cost=0.291353957
+109.0
+Epoch: 0368 training_accuracy=0.914285714 train_cost=0.001276295
+Epoch: 0368 test_accuracy=0.832061069 test_cost=0.288892142
+110.0
+Epoch: 0369 training_accuracy=0.914285714 train_cost=0.001196908
+Epoch: 0369 test_accuracy=0.839694656 test_cost=0.246483935
+111.0
+Epoch: 0370 training_accuracy=0.913095238 train_cost=0.002746857
+Epoch: 0370 test_accuracy=0.847328244 test_cost=0.273006704
+109.0
+Epoch: 0371 training_accuracy=0.914285714 train_cost=0.000931255
+Epoch: 0371 test_accuracy=0.832061069 test_cost=0.290574198
+109.0
+Epoch: 0372 training_accuracy=0.914285714 train_cost=0.001481096
+Epoch: 0372 test_accuracy=0.832061069 test_cost=0.326343385
+111.0
+Epoch: 0373 training_accuracy=0.914285714 train_cost=0.002217638
+Epoch: 0373 test_accuracy=0.847328244 test_cost=0.320946565
+112.0
+Epoch: 0374 training_accuracy=0.914285714 train_cost=0.001260299
+Epoch: 0374 test_accuracy=0.854961832 test_cost=0.243786738
+110.0
+Epoch: 0375 training_accuracy=0.914285714 train_cost=0.001503566
+Epoch: 0375 test_accuracy=0.839694656 test_cost=0.341394188
+112.0
+Epoch: 0376 training_accuracy=0.914285714 train_cost=0.001328771
+Epoch: 0376 test_accuracy=0.854961832 test_cost=0.262090604
+109.0
+Epoch: 0377 training_accuracy=0.914285714 train_cost=0.001545469
+Epoch: 0377 test_accuracy=0.832061069 test_cost=0.275804885
+112.0
+Epoch: 0378 training_accuracy=0.914285714 train_cost=0.001027163
+Epoch: 0378 test_accuracy=0.854961832 test_cost=0.269598675
+109.0
+Epoch: 0379 training_accuracy=0.913690476 train_cost=0.001435598
+Epoch: 0379 test_accuracy=0.832061069 test_cost=0.275527940
+110.0
+Epoch: 0380 training_accuracy=0.914285714 train_cost=0.001550338
+Epoch: 0380 test_accuracy=0.839694656 test_cost=0.261317275
+109.0
+Epoch: 0381 training_accuracy=0.914285714 train_cost=0.001052850
+Epoch: 0381 test_accuracy=0.832061069 test_cost=0.269602442
+111.0
+Epoch: 0382 training_accuracy=0.914285714 train_cost=0.001114481
+Epoch: 0382 test_accuracy=0.847328244 test_cost=0.252785163
+114.0
+Epoch: 0383 training_accuracy=0.914285714 train_cost=0.001293439
+Epoch: 0383 test_accuracy=0.870229008 test_cost=0.263524850
+111.0
+Epoch: 0384 training_accuracy=0.913690476 train_cost=0.002120412
+Epoch: 0384 test_accuracy=0.847328244 test_cost=0.276521247
+108.0
+Epoch: 0385 training_accuracy=0.914285714 train_cost=0.001469795
+Epoch: 0385 test_accuracy=0.824427481 test_cost=0.297872868
+112.0
+Epoch: 0386 training_accuracy=0.914285714 train_cost=0.001261822
+Epoch: 0386 test_accuracy=0.854961832 test_cost=0.281601311
+110.0
+Epoch: 0387 training_accuracy=0.914285714 train_cost=0.001392326
+Epoch: 0387 test_accuracy=0.839694656 test_cost=0.335095371
+109.0
+Epoch: 0388 training_accuracy=0.914285714 train_cost=0.001652233
+Epoch: 0388 test_accuracy=0.832061069 test_cost=0.356866716
+109.0
+Epoch: 0389 training_accuracy=0.914285714 train_cost=0.002187871
+Epoch: 0389 test_accuracy=0.832061069 test_cost=0.289776019
+112.0
+Epoch: 0390 training_accuracy=0.913690476 train_cost=0.002804176
+Epoch: 0390 test_accuracy=0.854961832 test_cost=0.253628424
+110.0
+Epoch: 0391 training_accuracy=0.913690476 train_cost=0.002302832
+Epoch: 0391 test_accuracy=0.839694656 test_cost=0.345768212
+109.0
+Epoch: 0392 training_accuracy=0.913690476 train_cost=0.002755365
+Epoch: 0392 test_accuracy=0.832061069 test_cost=0.273302343
+106.0
+Epoch: 0393 training_accuracy=0.914285714 train_cost=0.001302496
+Epoch: 0393 test_accuracy=0.809160305 test_cost=0.357317656
+109.0
+Epoch: 0394 training_accuracy=0.913690476 train_cost=0.002654374
+Epoch: 0394 test_accuracy=0.832061069 test_cost=0.227180945
+110.0
+Epoch: 0395 training_accuracy=0.914285714 train_cost=0.001315815
+Epoch: 0395 test_accuracy=0.839694656 test_cost=0.318563436
+110.0
+Epoch: 0396 training_accuracy=0.914285714 train_cost=0.002098438
+Epoch: 0396 test_accuracy=0.839694656 test_cost=0.281869257
+109.0
+Epoch: 0397 training_accuracy=0.914285714 train_cost=0.002467236
+Epoch: 0397 test_accuracy=0.832061069 test_cost=0.327997873
+107.0
+Epoch: 0398 training_accuracy=0.914285714 train_cost=0.001297051
+Epoch: 0398 test_accuracy=0.816793893 test_cost=0.331588031
+108.0
+Epoch: 0399 training_accuracy=0.913690476 train_cost=0.001750780
+Epoch: 0399 test_accuracy=0.824427481 test_cost=0.352411572
+107.0
+Epoch: 0400 training_accuracy=0.913690476 train_cost=0.002215990
+Epoch: 0400 test_accuracy=0.816793893 test_cost=0.315005268
+111.0
+Epoch: 0401 training_accuracy=0.914285714 train_cost=0.001187039
+Epoch: 0401 test_accuracy=0.847328244 test_cost=0.329016969
+109.0
+Epoch: 0402 training_accuracy=0.914285714 train_cost=0.001814582
+Epoch: 0402 test_accuracy=0.832061069 test_cost=0.307379907
+107.0
+Epoch: 0403 training_accuracy=0.914285714 train_cost=0.001067914
+Epoch: 0403 test_accuracy=0.816793893 test_cost=0.342884659
+109.0
+Epoch: 0404 training_accuracy=0.914285714 train_cost=0.002336056
+Epoch: 0404 test_accuracy=0.832061069 test_cost=0.295121095
+107.0
+Epoch: 0405 training_accuracy=0.913690476 train_cost=0.002869560
+Epoch: 0405 test_accuracy=0.816793893 test_cost=0.346427626
+109.0
+Epoch: 0406 training_accuracy=0.914285714 train_cost=0.001924396
+Epoch: 0406 test_accuracy=0.832061069 test_cost=0.311320379
+112.0
+Epoch: 0407 training_accuracy=0.914285714 train_cost=0.001495082
+Epoch: 0407 test_accuracy=0.854961832 test_cost=0.261054882
+109.0
+Epoch: 0408 training_accuracy=0.914285714 train_cost=0.002002882
+Epoch: 0408 test_accuracy=0.832061069 test_cost=0.250215242
+110.0
+Epoch: 0409 training_accuracy=0.913690476 train_cost=0.002215605
+Epoch: 0409 test_accuracy=0.839694656 test_cost=0.324409772
+108.0
+Epoch: 0410 training_accuracy=0.913690476 train_cost=0.002486327
+Epoch: 0410 test_accuracy=0.824427481 test_cost=0.302352843
+110.0
+Epoch: 0411 training_accuracy=0.913690476 train_cost=0.001882725
+Epoch: 0411 test_accuracy=0.839694656 test_cost=0.367457962
+109.0
+Epoch: 0412 training_accuracy=0.913690476 train_cost=0.002110029
+Epoch: 0412 test_accuracy=0.832061069 test_cost=0.326069727
+109.0
+Epoch: 0413 training_accuracy=0.913690476 train_cost=0.002615606
+Epoch: 0413 test_accuracy=0.832061069 test_cost=0.298698436
+107.0
+Epoch: 0414 training_accuracy=0.913690476 train_cost=0.002315620
+Epoch: 0414 test_accuracy=0.816793893 test_cost=0.319118227
+109.0
+Epoch: 0415 training_accuracy=0.914285714 train_cost=0.001155015
+Epoch: 0415 test_accuracy=0.832061069 test_cost=0.356468179
+110.0
+Epoch: 0416 training_accuracy=0.913690476 train_cost=0.002531750
+Epoch: 0416 test_accuracy=0.839694656 test_cost=0.302216441
+107.0
+Epoch: 0417 training_accuracy=0.914285714 train_cost=0.001614035
+Epoch: 0417 test_accuracy=0.816793893 test_cost=0.434058535
+105.0
+Epoch: 0418 training_accuracy=0.913690476 train_cost=0.002456559
+Epoch: 0418 test_accuracy=0.801526718 test_cost=0.433273453
+107.0
+Epoch: 0419 training_accuracy=0.914285714 train_cost=0.001648436
+Epoch: 0419 test_accuracy=0.816793893 test_cost=0.331773864
+106.0
+Epoch: 0420 training_accuracy=0.913690476 train_cost=0.002851925
+Epoch: 0420 test_accuracy=0.809160305 test_cost=0.346495862
+109.0
+Epoch: 0421 training_accuracy=0.914285714 train_cost=0.001243847
+Epoch: 0421 test_accuracy=0.832061069 test_cost=0.346251114
+109.0
+Epoch: 0422 training_accuracy=0.913690476 train_cost=0.002011015
+Epoch: 0422 test_accuracy=0.832061069 test_cost=0.320941455
+107.0
+Epoch: 0423 training_accuracy=0.914285714 train_cost=0.001980808
+Epoch: 0423 test_accuracy=0.816793893 test_cost=0.322422663
+108.0
+Epoch: 0424 training_accuracy=0.914285714 train_cost=0.003946006
+Epoch: 0424 test_accuracy=0.824427481 test_cost=0.339921235
+107.0
+Epoch: 0425 training_accuracy=0.914285714 train_cost=0.002355618
+Epoch: 0425 test_accuracy=0.816793893 test_cost=0.407405178
+107.0
+Epoch: 0426 training_accuracy=0.914285714 train_cost=0.001764389
+Epoch: 0426 test_accuracy=0.816793893 test_cost=0.373997983
+108.0
+Epoch: 0427 training_accuracy=0.913095238 train_cost=0.004683887
+Epoch: 0427 test_accuracy=0.824427481 test_cost=0.305706964
+106.0
+Epoch: 0428 training_accuracy=0.914285714 train_cost=0.001609493
+Epoch: 0428 test_accuracy=0.809160305 test_cost=0.348748873
+105.0
+Epoch: 0429 training_accuracy=0.913690476 train_cost=0.002131901
+Epoch: 0429 test_accuracy=0.801526718 test_cost=0.382700582
+108.0
+Epoch: 0430 training_accuracy=0.914285714 train_cost=0.002617039
+Epoch: 0430 test_accuracy=0.824427481 test_cost=0.350950814
+109.0
+Epoch: 0431 training_accuracy=0.914285714 train_cost=0.001815408
+Epoch: 0431 test_accuracy=0.832061069 test_cost=0.366934763
+110.0
+Epoch: 0432 training_accuracy=0.913095238 train_cost=0.004131890
+Epoch: 0432 test_accuracy=0.839694656 test_cost=0.329583369
+109.0
+Epoch: 0433 training_accuracy=0.913690476 train_cost=0.003643716
+Epoch: 0433 test_accuracy=0.832061069 test_cost=0.330218598
+108.0
+Epoch: 0434 training_accuracy=0.913095238 train_cost=0.003965327
+Epoch: 0434 test_accuracy=0.824427481 test_cost=0.312981738
+106.0
+Epoch: 0435 training_accuracy=0.914285714 train_cost=0.002065192
+Epoch: 0435 test_accuracy=0.809160305 test_cost=0.386875982
+108.0
+Epoch: 0436 training_accuracy=0.913690476 train_cost=0.002424437
+Epoch: 0436 test_accuracy=0.824427481 test_cost=0.353058662
+104.0
+Epoch: 0437 training_accuracy=0.913690476 train_cost=0.002714649
+Epoch: 0437 test_accuracy=0.793893130 test_cost=0.490499812
+106.0
+Epoch: 0438 training_accuracy=0.914285714 train_cost=0.001873674
+Epoch: 0438 test_accuracy=0.809160305 test_cost=0.410048220
+111.0
+Epoch: 0439 training_accuracy=0.914285714 train_cost=0.003082349
+Epoch: 0439 test_accuracy=0.847328244 test_cost=0.273507808
+110.0
+Epoch: 0440 training_accuracy=0.913690476 train_cost=0.002802229
+Epoch: 0440 test_accuracy=0.839694656 test_cost=0.311918860
+108.0
+Epoch: 0441 training_accuracy=0.913690476 train_cost=0.003160852
+Epoch: 0441 test_accuracy=0.824427481 test_cost=0.309054215
+110.0
+Epoch: 0442 training_accuracy=0.913690476 train_cost=0.002862491
+Epoch: 0442 test_accuracy=0.839694656 test_cost=0.297204661
+111.0
+Epoch: 0443 training_accuracy=0.914285714 train_cost=0.002674149
+Epoch: 0443 test_accuracy=0.847328244 test_cost=0.272360954
+108.0
+Epoch: 0444 training_accuracy=0.913690476 train_cost=0.002841314
+Epoch: 0444 test_accuracy=0.824427481 test_cost=0.401654740
+110.0
+Epoch: 0445 training_accuracy=0.914285714 train_cost=0.002337016
+Epoch: 0445 test_accuracy=0.839694656 test_cost=0.305218036
+105.0
+Epoch: 0446 training_accuracy=0.914285714 train_cost=0.001896374
+Epoch: 0446 test_accuracy=0.801526718 test_cost=0.408562046
+109.0
+Epoch: 0447 training_accuracy=0.913690476 train_cost=0.002587624
+Epoch: 0447 test_accuracy=0.832061069 test_cost=0.315756791
+109.0
+Epoch: 0448 training_accuracy=0.914285714 train_cost=0.002127847
+Epoch: 0448 test_accuracy=0.832061069 test_cost=0.367582013
+109.0
+Epoch: 0449 training_accuracy=0.913690476 train_cost=0.002927145
+Epoch: 0449 test_accuracy=0.832061069 test_cost=0.287410244
+109.0
+Epoch: 0450 training_accuracy=0.914285714 train_cost=0.001672190
+Epoch: 0450 test_accuracy=0.832061069 test_cost=0.362608311
+113.0
+Epoch: 0451 training_accuracy=0.913690476 train_cost=0.002584595
+Epoch: 0451 test_accuracy=0.862595420 test_cost=0.319608533
+111.0
+Epoch: 0452 training_accuracy=0.914285714 train_cost=0.001790204
+Epoch: 0452 test_accuracy=0.847328244 test_cost=0.285688432
+109.0
+Epoch: 0453 training_accuracy=0.913095238 train_cost=0.003813833
+Epoch: 0453 test_accuracy=0.832061069 test_cost=0.417559546
+112.0
+Epoch: 0454 training_accuracy=0.911904762 train_cost=0.007340845
+Epoch: 0454 test_accuracy=0.854961832 test_cost=0.302079617
+105.0
+Epoch: 0455 training_accuracy=0.913095238 train_cost=0.003955850
+Epoch: 0455 test_accuracy=0.801526718 test_cost=0.383849228
+109.0
+Epoch: 0456 training_accuracy=0.913095238 train_cost=0.003062142
+Epoch: 0456 test_accuracy=0.832061069 test_cost=0.352664838
+111.0
+Epoch: 0457 training_accuracy=0.913690476 train_cost=0.003158284
+Epoch: 0457 test_accuracy=0.847328244 test_cost=0.280016555
+108.0
+Epoch: 0458 training_accuracy=0.914285714 train_cost=0.001793856
+Epoch: 0458 test_accuracy=0.824427481 test_cost=0.369212826
+110.0
+Epoch: 0459 training_accuracy=0.914285714 train_cost=0.002444115
+Epoch: 0459 test_accuracy=0.839694656 test_cost=0.317641065
+112.0
+Epoch: 0460 training_accuracy=0.914285714 train_cost=0.001909544
+Epoch: 0460 test_accuracy=0.854961832 test_cost=0.242073368
+108.0
+Epoch: 0461 training_accuracy=0.914285714 train_cost=0.002825687
+Epoch: 0461 test_accuracy=0.824427481 test_cost=0.326089017
+107.0
+Epoch: 0462 training_accuracy=0.913690476 train_cost=0.003451312
+Epoch: 0462 test_accuracy=0.816793893 test_cost=0.344291103
+105.0
+Epoch: 0463 training_accuracy=0.914285714 train_cost=0.002181985
+Epoch: 0463 test_accuracy=0.801526718 test_cost=0.447088992
+111.0
+Epoch: 0464 training_accuracy=0.913095238 train_cost=0.004716859
+Epoch: 0464 test_accuracy=0.847328244 test_cost=0.332498992
+108.0
+Epoch: 0465 training_accuracy=0.913690476 train_cost=0.002709870
+Epoch: 0465 test_accuracy=0.824427481 test_cost=0.289862830
+109.0
+Epoch: 0466 training_accuracy=0.913690476 train_cost=0.003200201
+Epoch: 0466 test_accuracy=0.832061069 test_cost=0.317154581
+108.0
+Epoch: 0467 training_accuracy=0.912500000 train_cost=0.004775460
+Epoch: 0467 test_accuracy=0.824427481 test_cost=0.384770920
+110.0
+Epoch: 0468 training_accuracy=0.913690476 train_cost=0.004487702
+Epoch: 0468 test_accuracy=0.839694656 test_cost=0.372655571
+110.0
+Epoch: 0469 training_accuracy=0.912500000 train_cost=0.005601424
+Epoch: 0469 test_accuracy=0.839694656 test_cost=0.353754354
+105.0
+Epoch: 0470 training_accuracy=0.913690476 train_cost=0.004310412
+Epoch: 0470 test_accuracy=0.801526718 test_cost=0.383641601
+110.0
+Epoch: 0471 training_accuracy=0.912500000 train_cost=0.003912106
+Epoch: 0471 test_accuracy=0.839694656 test_cost=0.269883528
+110.0
+Epoch: 0472 training_accuracy=0.913690476 train_cost=0.002989541
+Epoch: 0472 test_accuracy=0.839694656 test_cost=0.339953789
+109.0
+Epoch: 0473 training_accuracy=0.914285714 train_cost=0.002993580
+Epoch: 0473 test_accuracy=0.832061069 test_cost=0.404256993
+112.0
+Epoch: 0474 training_accuracy=0.913690476 train_cost=0.001995173
+Epoch: 0474 test_accuracy=0.854961832 test_cost=0.303569023
+104.0
+Epoch: 0475 training_accuracy=0.913095238 train_cost=0.003786926
+Epoch: 0475 test_accuracy=0.793893130 test_cost=0.448944092
+106.0
+Epoch: 0476 training_accuracy=0.912500000 train_cost=0.005592213
+Epoch: 0476 test_accuracy=0.809160305 test_cost=0.387154417
+104.0
+Epoch: 0477 training_accuracy=0.914285714 train_cost=0.001945838
+Epoch: 0477 test_accuracy=0.793893130 test_cost=0.437988831
+110.0
+Epoch: 0478 training_accuracy=0.913690476 train_cost=0.002240031
+Epoch: 0478 test_accuracy=0.839694656 test_cost=0.349131085
+108.0
+Epoch: 0479 training_accuracy=0.912500000 train_cost=0.004566881
+Epoch: 0479 test_accuracy=0.824427481 test_cost=0.321312452
+111.0
+Epoch: 0480 training_accuracy=0.913690476 train_cost=0.003136602
+Epoch: 0480 test_accuracy=0.847328244 test_cost=0.310229168
+112.0
+Epoch: 0481 training_accuracy=0.913690476 train_cost=0.003172698
+Epoch: 0481 test_accuracy=0.854961832 test_cost=0.287837134
+109.0
+Epoch: 0482 training_accuracy=0.913690476 train_cost=0.002930604
+Epoch: 0482 test_accuracy=0.832061069 test_cost=0.279236676
+109.0
+Epoch: 0483 training_accuracy=0.913690476 train_cost=0.002318478
+Epoch: 0483 test_accuracy=0.832061069 test_cost=0.350601804
+109.0
+Epoch: 0484 training_accuracy=0.912500000 train_cost=0.005238590
+Epoch: 0484 test_accuracy=0.832061069 test_cost=0.303024304
+105.0
+Epoch: 0485 training_accuracy=0.913690476 train_cost=0.002781321
+Epoch: 0485 test_accuracy=0.801526718 test_cost=0.328944071
+110.0
+Epoch: 0486 training_accuracy=0.914285714 train_cost=0.002362240
+Epoch: 0486 test_accuracy=0.839694656 test_cost=0.367421889
+108.0
+Epoch: 0487 training_accuracy=0.913095238 train_cost=0.004859125
+Epoch: 0487 test_accuracy=0.824427481 test_cost=0.405656323
+106.0
+Epoch: 0488 training_accuracy=0.914285714 train_cost=0.003639530
+Epoch: 0488 test_accuracy=0.809160305 test_cost=0.379665749
+103.0
+Epoch: 0489 training_accuracy=0.914285714 train_cost=0.002520033
+Epoch: 0489 test_accuracy=0.786259542 test_cost=0.344618848
+108.0
+Epoch: 0490 training_accuracy=0.913690476 train_cost=0.005267497
+Epoch: 0490 test_accuracy=0.824427481 test_cost=0.459877533
+110.0
+Epoch: 0491 training_accuracy=0.913095238 train_cost=0.006176499
+Epoch: 0491 test_accuracy=0.839694656 test_cost=0.371889978
+104.0
+Epoch: 0492 training_accuracy=0.912500000 train_cost=0.007073082
+Epoch: 0492 test_accuracy=0.793893130 test_cost=0.412808220
+109.0
+Epoch: 0493 training_accuracy=0.913690476 train_cost=0.003639098
+Epoch: 0493 test_accuracy=0.832061069 test_cost=0.379027851
+111.0
+Epoch: 0494 training_accuracy=0.911904762 train_cost=0.006042191
+Epoch: 0494 test_accuracy=0.847328244 test_cost=0.325822776
+106.0
+Epoch: 0495 training_accuracy=0.914285714 train_cost=0.003585301
+Epoch: 0495 test_accuracy=0.809160305 test_cost=0.389428735
+102.0
+Epoch: 0496 training_accuracy=0.913690476 train_cost=0.003805518
+Epoch: 0496 test_accuracy=0.778625954 test_cost=0.518870506
+107.0
+Epoch: 0497 training_accuracy=0.914285714 train_cost=0.003522109
+Epoch: 0497 test_accuracy=0.816793893 test_cost=0.412654591
+108.0
+Epoch: 0498 training_accuracy=0.913690476 train_cost=0.002970400
+Epoch: 0498 test_accuracy=0.824427481 test_cost=0.391588111
+109.0
+Epoch: 0499 training_accuracy=0.914285714 train_cost=0.003594521
+Epoch: 0499 test_accuracy=0.832061069 test_cost=0.344469142
+109.0
+Epoch: 0500 training_accuracy=0.913690476 train_cost=0.003241707
+Epoch: 0500 test_accuracy=0.832061069 test_cost=0.314277872

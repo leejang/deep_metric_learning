@@ -1,0 +1,26 @@
+{
+	"Feature_extractors":
+		{
+			"resnet50":{
+				"prototxt":"/home/smqtk/caffe/msra_resnet/ResNet-50-deploy.prototxt",
+				"caffemodel":"/home/smqtk/caffe/msra_resnet/ResNet-50-model.caffemodel",
+				"meanValue":"/home/smqtk/caffe/msra_resnet/ResNet_mean.binaryproto"
+
+                }
+
+		},
+	"Feature_extractor":"resnet50",
+	"Layer_output":["res5c"],
+	"featuresDB":"/data1/icmr_results/oxford/features",
+	"path_images":"/data1/datasets/oxford_buildings/images",
+	"path_queries":"/data1/datasets/oxford_buildings/images",
+	"path_gt_files":"/data1/datasets/oxford_buildings/gt_files",
+	"keyframesHoritzontal":"/home/deepinsight/blcf/oxford/list_oxford_horitzontal.txt",
+	"keyframesVertical":"/home/deepinsight/blcf/oxford/list_oxford_vertical.txt",
+	"input_size":[2 ,3, 336, 256],
+	"dim_input":"336_256",
+	"dim_maps":[21,16],
+	"path_output":"/data1/icmr_results/oxford",
+	"path_models":"/data1/icmr_results/oxford",
+	"dataset":"oxford"
+}
